@@ -2,7 +2,7 @@
   <v-container>
       <v-row>
       <v-col justify="center" align="center">
-        <h1>ゲームのルール説明</h1>
+        <h1 class="rule" >ゲームのルール説明</h1>
         <p style="font-size:20px">本日のゲームは、、<strong>「1年記念日クイズ」</strong>です！</p>
       </v-col>
       </v-row>
@@ -22,7 +22,7 @@
           </v-col>
       </v-row>
       <v-col justify="center" align="center">
-        <v-btn rounded color="primary" dark class="mt-5 pa-5" x-large><router-link to="/list" style="text-decoration: none; color:white" >START</router-link></v-btn>
+        <v-btn rounded color="primary" dark class="mt-5 pa-5" x-large><router-link to="/qua1" style="text-decoration: none; color:white" >START</router-link></v-btn>
         <p><router-link to="/">Go to Home</router-link></p>
         </v-col>
   </v-container>

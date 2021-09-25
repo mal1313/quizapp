@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from 'C://Users//ihmon//Documents//1004//quiz//src//components//Home.vue';
-import List from 'C://Users//ihmon//Documents//1004//quiz//src//components//List.vue';
+import Home from '../components/Home.vue';
+import List from '../components/List.vue';
+import Qua1 from '../components/Qua1'
 
 Vue.use(Router);
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/list',
       name: 'list',
       component: List
+    },
+    {
+      path:'/qua1',
+      name:'qua1',
+      component: Qua1
     }
   ]
 });
