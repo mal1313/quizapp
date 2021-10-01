@@ -9,9 +9,11 @@
         </v-row>
         <v-row justify="center" align="center">
         <div v-for="(answer,index) in currentQuestion.href" :key="index">
-                <v-col justify="center" align="center">
-                <v-btn color="primary" class="mb-4 px-20" @click="addAnswer(index)">{{(index+1)}}</v-btn>
-                <v-img :src="answer" width="350px"></v-img>
+                <v-col justify="center" align="center" cols="auto">
+                <v-card max-width="350ox" max-height="auto">
+                <v-btn color="primary" class="mt-2 px-20" @click="addAnswer(index)">{{(index+1)}}</v-btn>
+                <v-img :src="answer" width="350px" class="ma-2"></v-img>
+                </v-card>
                 </v-col>
         </div>
         </v-row>
@@ -80,6 +82,22 @@ export default {
         href:[],
         questions:[
             {
+            date : '伊勢神宮の鳥居を過ぎた後にあった川は？？',
+            href :[
+                require('@/img/4-1.jpg'),
+                require('@/img/4-2.jpg')
+            ],
+            answer:0
+            },
+            {
+            date : '「ちょっとHなスケスケ白ザリ」はどっち？',
+            href :[
+                require('@/img/8-1.jpg'),
+                require('@/img/8-2.jpg')
+            ],
+            answer:1
+            },
+            {
             date : 'てるしま橋はどっち？',
             href :[
                 require('@/img/1-1.jpg'),
@@ -98,16 +116,8 @@ export default {
                         {
             date : '2021/10/24に行った寿司屋はどっち？',
             href :[
-                require('@/img/3-2.jpg'),
+                require('@/img/3-1-1.jpg'),
                 require('@/img/3-1.jpg')
-            ],
-            answer:0
-            },
-                        {
-            date : '伊勢神宮の鳥居を過ぎた後にあった川は？？',
-            href :[
-                require('@/img/4-1.jpg'),
-                require('@/img/4-2.jpg')
             ],
             answer:0
             },
@@ -134,14 +144,6 @@ export default {
                 require('@/img/7-1.jpg')
             ],
             answer:0
-            },
-                                    {
-            date : '「ちょっとHなスケスケ白ザリ」はどっち？',
-            href :[
-                require('@/img/8-1.jpg'),
-                require('@/img/8-2.jpg')
-            ],
-            answer:1
             },
                                     {
             date : '「肉食堂レッドミート」というお店で食べたご飯は？',
