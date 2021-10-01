@@ -12,6 +12,7 @@
         <p style="font-family: 'M PLUS 1p';">Ⅱ、問題は全部で<b>10問</b>です！</p>
         <p style="font-family: 'M PLUS 1p';">Ⅲ、正解数により<b>もらえるプレゼント</b>が変わります！</p>
         <p style="font-family: 'M PLUS 1p';">Ⅳ、あなたの愛と実力が試されます</p>
+        <p style="font-family: 'M PLUS 1p';">今回作った問題はかなり難しいですよー！覚悟していてくださいね！</p>
           </v-col>
       </v-row>
       <v-row>

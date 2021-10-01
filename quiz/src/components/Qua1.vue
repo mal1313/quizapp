@@ -80,84 +80,84 @@ export default {
         href:[],
         questions:[
             {
-            date : '2021/1/1',
+            date : 'てるしま橋はどっち？',
             href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://thumb.photo-ac.com/b8/b8f9f5fe78749f12650271c30e42ff10_t.jpeg'
+                require('@/img/1-1.jpg'),
+                require('@/img/1-2.jpg')
             ],
             answer:1
             },
             {
-            date : '2021/1/1',
+            date : 'そうめん流し(唐船峡)の直前に行った場所はどっち？',
             href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://nozziedesign.com/wp-content/uploads/2014/12/Girl-Blowing-Confetti.jpg'
+                require('@/img/2-1.jpg'),
+                require('@/img/2-2.jpg')
             ],
             answer:1
             },
                         {
-            date : '2021/1/1',
+            date : '2021/10/24に行った寿司屋はどっち？',
             href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://thumb.photo-ac.com/b8/b8f9f5fe78749f12650271c30e42ff10_t.jpeg'
+                require('@/img/3-2.jpg'),
+                require('@/img/3-1.jpg')
             ],
-            answer:1
+            answer:0
             },
                         {
-            date : '2021/1/1',
+            date : '伊勢神宮の鳥居を過ぎた後にあった川は？？',
             href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://koukilife.com/wp-content/uploads/2018/09/cats-10.jpg'
+                require('@/img/4-1.jpg'),
+                require('@/img/4-2.jpg')
+            ],
+            answer:0
+            },
+                                    {
+            date : '長崎鼻灯台にあった鳥居は？',
+            href :[
+                require('@/img/5-1.jpg'),
+                require('@/img/5-2.jpg')
             ],
             answer:1
             },
                                     {
-            date : '2021/1/1',
+            date : 'そうめん流しにあった森は？',
             href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://koukilife.com/wp-content/uploads/2018/09/cats-10.jpg'
+                require('@/img/6-1.jpg'),
+                require('@/img/6-2.jpg')
             ],
             answer:1
             },
                                     {
-            date : '2021/1/1',
+            date : '鳥羽水族館はどっちでしょう？',
             href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://koukilife.com/wp-content/uploads/2018/09/cats-10.jpg'
+                require('@/img/7-2.jpg'),
+                require('@/img/7-1.jpg')
+            ],
+            answer:0
+            },
+                                    {
+            date : '「ちょっとHなスケスケ白ザリ」はどっち？',
+            href :[
+                require('@/img/8-1.jpg'),
+                require('@/img/8-2.jpg')
             ],
             answer:1
             },
                                     {
-            date : '2021/1/1',
+            date : '「肉食堂レッドミート」というお店で食べたご飯は？',
             href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://koukilife.com/wp-content/uploads/2018/09/cats-10.jpg'
+                require('@/img/9-1.jpg'),
+                require('@/img/9-2.jpg')
             ],
-            answer:1
-            },
-                                    {
-            date : '2021/1/1',
-            href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://koukilife.com/wp-content/uploads/2018/09/cats-10.jpg'
-            ],
-            answer:1
-            },
-                                    {
-            date : '2021/1/1',
-            href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://koukilife.com/wp-content/uploads/2018/09/cats-10.jpg'
-            ],
-            answer:1
+            answer:0
             },
                                                 {
-            date : '2021/1/1',
+            date : 'クリスマスに行ったご飯屋さんは？？',
             href :[
-                'https://i1.wp.com/girlydrop.com/wp-content/uploads/2020/02/Whiteday2020-12.jpg?resize=500%2C333&ssl=1',
-                'https://koukilife.com/wp-content/uploads/2018/09/cats-10.jpg'
+                require('@/img/10-1.jpg'),
+                require('@/img/10-2.jpg')
             ],
-            answer:1
+            answer:0
             }
         ]
     }),
